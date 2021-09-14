@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        .container-prog {
+            margin-top: 5em;
+            margin-left: 10px;
+            margin-right: 10px;
+            grid-template-columns: 1fr;
+        }
+        @media screen and (max-width: 775px) {
+            .container-prog {
+                grid-template-columns: 1fr;
+                grid-row-gap: 3em;
+                grid-template-rows: 150px 250px 6fr 130px;
+            }
+        }
+        @media screen and (min-width: 1366px) {
+            .container-prog {
+                grid-template-columns: 1fr;
+                grid-row-gap: 3em;
+                grid-template-rows: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <div class="logo">
+            Perpustakaan<br>Kelompok 5
+        </div>
+        <div class="menu" onclick="display()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="catalog.php">Catalog</a>
+            <a href="service.html">Service</a>
+            <a href="login.php">Login</a>
+        </nav>
+    </div>
+    <div class="container-prog">
+        <!--Content-->
+            <div class="program">
+                <div class="logo">
+                    Perpustakaan<br>Kelompok 5
+                </div>
+                <div align='justify'>
+                    <h2>Program 1</h2>
+                    <p>Penjelasan Nama Program</p>
+                </div>
+            </div>
+
+            <div class="program">
+                <div class="logo">
+                    Perpustakaan<br>Kelompok 5
+                </div>
+                <div align='justify'>
+                    <h2>Program 2</h2>
+                    <p>Penjelasan Nama Program</p>
+                </div>
+            </div>
+
+            <div class="program">
+                <div class="logo">
+                    Perpustakaan<br>Kelompok 5
+                </div>
+                <div align='justify'>
+                    <h2>Program 3</h2>
+                    <p>Penjelasan Nama Program</p>
+                </div>
+            </div>
+
+        <!--Footer-->
+            <div class="footer">
+                <div>© Kelompok: 5</div>
+                <div>kelas: 19.2B.01</div>
+                <div>2021</div>
+            </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
